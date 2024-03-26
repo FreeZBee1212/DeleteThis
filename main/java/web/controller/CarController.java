@@ -11,7 +11,7 @@ import web.service.CarServiceImpl;
 @Controller
 public class CarController {
 
-    @Qualifier("car")
+    @Qualifier("carService")
     private CarServiceImpl carService;
 
     @Autowired

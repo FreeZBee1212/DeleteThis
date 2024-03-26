@@ -6,7 +6,7 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component("car")
+@Component("carService")
 public class CarServiceImpl implements CarService {
 
     private long count;
