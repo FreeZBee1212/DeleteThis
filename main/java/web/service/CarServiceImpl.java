@@ -1,12 +1,13 @@
 package web.service;
 
+import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import web.model.Car;
-
 import java.util.ArrayList;
 import java.util.List;
 
-@Component("carService")
+@Service
 public class CarServiceImpl implements CarService {
 
     private long count;
